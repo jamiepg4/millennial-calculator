@@ -32,13 +32,21 @@ var autoNumericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': f
         },
 
         initialize: function() {
-            console.log('initalize view');
-
-            $('#income').val('123');
         },
 
         updateIncome: function() {
-            console.log('update income');
+            var calculatorBand;
+            var income = $("#income").val();
+
+            calculatorCollection.each(function(band) {
+
+                if (income >= band.get('salaryBand')) {
+                    calculatorBand = band;
+                }
+            });
+
+            $("#message").text(calculatorBand.get("message"));
+
         }
 
     });

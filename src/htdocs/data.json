@@ -1,35 +1,57 @@
 [
 	{
-		"id": 0
+		"id": 0,
+		"salaryBand": 0,
+		"message": "You are broke"
 	},
 	{
-		"id": 1
+		"id": 1,
+		"salaryBand": 10000,
+		"message": "You are in poverty"
 	},
 	{
-		"id": 2
+		"id": 2,
+		"salaryBand": 20000,
+		"message": "You are struggling"
 	},
 	{
-		"id": 3
+		"id": 3,
+		"salaryBand": 30000,
+		"message": "You are around average"
 	},
 	{
-		"id": 4
+		"id": 4,
+		"salaryBand": 40000,
+		"message": "You're doing ok"
 	},
 	{
-		"id": 5
+		"id": 5,
+		"salaryBand": 50000,
+		"message": "You're earning more than most"
 	},
 	{
-		"id": 6
+		"id": 6,
+		"salaryBand": 60000,
+		"message": "You're earning a lot"
 	},
 	{
-		"id": 7
+		"id": 7,
+		"salaryBand": 70000,
+		"message": "You earn more than 80% of the USA"
 	},
 	{
-		"id": 8
+		"id": 8,
+		"salaryBand": 80000,
+		"message": "You earn more than 90% of the USA"
 	},
 	{
-		"id": 9
+		"id": 9,
+		"salaryBand": 90000,
+		"message": "You are loaded"
 	},
 	{
-		"id": 10
+		"id": 10,
+		"salaryBand": 100000,
+		"message": "You are filthy rich compared to most millennials"
 	}
 ]
