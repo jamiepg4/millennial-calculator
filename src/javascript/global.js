@@ -1,16 +1,13 @@
 var $ = require('jquery');
 var _ = require('underscore');
 var Backbone = require('backbone');
-// require('./autoNumeric');
 
 window.jQuery = $;
 
+require('./autoNumeric');
+
 Backbone.$ = $;
-
-var app = {};
 var jQuery = $.noConflict();
-
-var autoNumericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': false, 'mRound': 'B'};
 
 (function($){
 
@@ -32,14 +29,15 @@ var autoNumericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': f
         },
 
         initialize: function() {
+            var numericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': false, 'mRound': 'B'};
+            $('#income').autoNumeric('init', numericOptions);
         },
 
         updateIncome: function() {
             var calculatorBand;
-            var income = $("#income").val();
+            var income = parseInt($('#income').autoNumeric('get'), 10);
 
             calculatorCollection.each(function(band) {
-
                 if (income >= band.get('salaryBand')) {
                     calculatorBand = band;
                 }
