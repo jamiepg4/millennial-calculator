@@ -16,6 +16,13 @@ var autoNumericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': f
 
     'use strict';
 
+    var CalculatorModel = Backbone.Model.extend();
+
+    var CalculatorCollection = Backbone.Collection.extend({
+        model: CalculatorModel,
+        url: 'data.json'
+    });
+
     var CalculatorView = Backbone.View.extend({
 
         el: '#calculator',
@@ -35,6 +42,9 @@ var autoNumericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': f
         }
 
     });
+
+    var calculatorCollection = new CalculatorCollection();
+    calculatorCollection.fetch({reset:true});
 
     var calculatorView = new CalculatorView({el: $('#calculator')});
 
