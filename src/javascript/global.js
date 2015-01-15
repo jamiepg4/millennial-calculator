@@ -1,11 +1,41 @@
-// Browserify entry point for the page.js bundle (yay JavaScript!)
 var $ = require('jquery');
 var _ = require('underscore');
+var Backbone = require('backbone');
+// require('./autoNumeric');
 
-// global.js already contains jQuery, so in our config.js file, we
-// are exposing it to other files like this one in the `require` array.
-// Also in config.js, jquery is listed in `external` array for this bundle.
-// This combination lets this file use the jquery module bundled with
-// global.js, instead including it twice!
+window.jQuery = $;
 
-console.log('page.js loaded!');
+Backbone.$ = $;
+
+var app = {};
+var jQuery = $.noConflict();
+
+var autoNumericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': false, 'mRound': 'B'};
+
+(function($){
+
+    'use strict';
+
+    var CalculatorView = Backbone.View.extend({
+
+        el: '#calculator',
+        events: {
+            'change input#income': 'updateIncome',
+            'keyup input#income': 'updateIncome'
+        },
+
+        initialize: function() {
+            console.log('initalize view');
+
+            $('#income').val('123');
+        },
+
+        updateIncome: function() {
+            console.log('update income');
+        }
+
+    });
+
+    var calculatorView = new CalculatorView({el: $('#calculator')});
+
+})($);
