@@ -6,52 +6,202 @@
 	},
 	{
 		"id": 1,
-		"salaryBand": 10000,
+		"salaryBand": 2499,
 		"message": "You are in poverty"
 	},
 	{
 		"id": 2,
-		"salaryBand": 20000,
+		"salaryBand": 4999,
 		"message": "You are struggling"
 	},
 	{
 		"id": 3,
-		"salaryBand": 30000,
+		"salaryBand": 7499,
 		"message": "You are around average"
 	},
 	{
 		"id": 4,
-		"salaryBand": 40000,
+		"salaryBand": 9999,
 		"message": "You're doing ok"
 	},
 	{
 		"id": 5,
-		"salaryBand": 50000,
+		"salaryBand": 12499,
 		"message": "You're earning more than most"
 	},
 	{
 		"id": 6,
-		"salaryBand": 60000,
+		"salaryBand": 14999,
 		"message": "You're earning a lot"
 	},
 	{
 		"id": 7,
-		"salaryBand": 70000,
+		"salaryBand": 17499,
 		"message": "You earn more than 80% of the USA"
 	},
 	{
 		"id": 8,
-		"salaryBand": 80000,
+		"salaryBand": 19999,
 		"message": "You earn more than 90% of the USA"
 	},
 	{
 		"id": 9,
-		"salaryBand": 90000,
+		"salaryBand": 22499,
 		"message": "You are loaded"
 	},
 	{
 		"id": 10,
-		"salaryBand": 100000,
+		"salaryBand": 24999,
 		"message": "You are filthy rich compared to most millennials"
+	},
+	{
+		"id": 11,
+		"salaryBand": 27499,
+		"message": "You are broke"
+	},
+	{
+		"id": 12,
+		"salaryBand": 29999,
+		"message": "You are in poverty"
+	},
+	{
+		"id": 13,
+		"salaryBand": 32499,
+		"message": "You are struggling"
+	},
+	{
+		"id": 14,
+		"salaryBand": 34999,
+		"message": "You are around average"
+	},
+	{
+		"id": 15,
+		"salaryBand": 37499,
+		"message": "You're doing ok"
+	},
+	{
+		"id": 16,
+		"salaryBand": 39999,
+		"message": "You're earning more than most"
+	},
+	{
+		"id": 17,
+		"salaryBand": 42499,
+		"message": "You're earning a lot"
+	},
+	{
+		"id": 18,
+		"salaryBand": 44999,
+		"message": "You earn more than 80% of the USA"
+	},
+	{
+		"id": 19,
+		"salaryBand": 47499,
+		"message": "You earn more than 90% of the USA"
+	},
+	{
+		"id": 20,
+		"salaryBand": 49999,
+		"message": "You are loaded"
+	},
+	{
+		"id": 21,
+		"salaryBand": 52499,
+		"message": "You are filthy rich compared to most millennials"
+	},
+	{
+		"id": 22,
+		"salaryBand": 54999,
+		"message": "You are broke"
+	},
+	{
+		"id": 23,
+		"salaryBand": 57499,
+		"message": "You are in poverty"
+	},
+	{
+		"id": 24,
+		"salaryBand": 59999,
+		"message": "You are struggling"
+	},
+	{
+		"id": 25,
+		"salaryBand": 62499,
+		"message": "You are around average"
+	},
+	{
+		"id": 26,
+		"salaryBand": 64999,
+		"message": "You're doing ok"
+	},
+	{
+		"id": 27,
+		"salaryBand": 67499,
+		"message": "You're earning more than most"
+	},
+	{
+		"id": 28,
+		"salaryBand": 69999,
+		"message": "You're earning a lot"
+	},
+	{
+		"id": 29,
+		"salaryBand": 72499,
+		"message": "You earn more than 80% of the USA"
+	},
+	{
+		"id": 30,
+		"salaryBand": 74999,
+		"message": "You earn more than 90% of the USA"
+	},
+	{
+		"id": 31,
+		"salaryBand": 77499,
+		"message": "You are loaded"
+	},
+	{
+		"id": 32,
+		"salaryBand": 79999,
+		"message": "You are filthy rich compared to most millennials"
+	},
+	{
+		"id": 33,
+		"salaryBand": 82499,
+		"message": "You are broke"
+	},
+	{
+		"id": 34,
+		"salaryBand": 84999,
+		"message": "You are in poverty"
+	},
+	{
+		"id": 35,
+		"salaryBand": 87499,
+		"message": "You are struggling"
+	},
+	{
+		"id": 36,
+		"salaryBand": 89999,
+		"message": "You are around average"
+	},
+	{
+		"id": 37,
+		"salaryBand": 92499,
+		"message": "You're doing ok"
+	},
+	{
+		"id": 38,
+		"salaryBand": 94999,
+		"message": "You're earning more than most"
+	},
+	{
+		"id": 39,
+		"salaryBand": 97499,
+		"message": "You're earning a lot"
+	},
+	{
+		"id": 40,
+		"salaryBand": 99999,
+		"message": "You earn more than 80% of the USA"
 	}
 ]
