@@ -1,22 +1,43 @@
+@font-face {font-family: 'Bitter'; src: url('bitter.otf'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'Open Sans'; src: url('opensans.woff'); font-weight: normal; font-style: normal;}
+
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
 .calculator {
-	height: 100vh;
 	display: flex;
-	background-color: #ddd;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #C8E5EF;
 }
 
 .calculator h1 {
 	width: 100%;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-size: 3vw;
 	text-align: center;
+	margin-bottom: 0;
 }
 
 .calculator h2 {
 	width: 100%;
+	font-family: "Bitter";
+	font-weight: normal;
+	font-size: 4vw;
+	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 0;
+}
+
+.calculator h3 {
+	font-weight: normal;
+	font-size: 2vw;
+	font-family: "Open Sans";
+	text-align: center;
+	margin-bottom: 0;
 }
 
 .calculator input {
@@ -24,6 +45,6 @@ html, body {
 	height: 50px;
 	font-size: 3em;
 	text-align: center;
-	margin: 0 auto;
+	margin: 2vw auto;
 	display: block;
 }
