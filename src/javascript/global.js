@@ -51,6 +51,9 @@ var jQuery = $.noConflict();
                 $("#message").text('');
             }
 
+            $(".street").removeClass("first second third fourth fifth sixth seventh");
+            $(".street").addClass(calculatorBand.get("grade"));
+
         }
 
     });
