@@ -29,7 +29,7 @@ var jQuery = $.noConflict();
         },
 
         initialize: function() {
-            var numericOptions = {'aDec': '.', 'aSign': '$', 'wEmpty': 'sign', 'aPad': false, 'mRound': 'B'};
+            var numericOptions = {'aDec': '.', 'lZero': 'deny', 'aSign': '$', 'wEmpty': 'sign', 'aPad': false, 'mRound': 'B', 'vMax': 10000000};
             $('#income').autoNumeric('init', numericOptions);
         },
 
@@ -43,7 +43,13 @@ var jQuery = $.noConflict();
                 }
             });
 
-            $("#message").text(calculatorBand.get("message"));
+            if (income > 0) {
+                if (calculatorBand.get('message')) {
+                    $("#message").text(calculatorBand.get("message"));    
+                }
+            } else {
+                $("#message").text('');
+            }
 
         }
 

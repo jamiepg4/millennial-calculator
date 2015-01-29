@@ -4,13 +4,16 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	min-width: 300px;
+	min-height: 400px;
 }
 
 .calculator {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	background-color: #C8E5EF;
+	position: relative;
+	z-index: 100;
 }
 
 .calculator h1 {
@@ -19,7 +22,16 @@ html, body {
 	font-weight: normal;
 	font-size: 3vw;
 	text-align: center;
+	margin-top: 3vw;
 	margin-bottom: 0;
+}
+
+.calculator .header-line {
+	background-color: red;
+	width: 60%;
+	margin: 0 auto;
+	background: url('images/header-line.png');
+	background-size: 100% 100%;
 }
 
 .calculator h2 {
@@ -29,6 +41,7 @@ html, body {
 	font-size: 4vw;
 	text-transform: uppercase;
 	text-align: center;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -37,14 +50,29 @@ html, body {
 	font-size: 2vw;
 	font-family: "Open Sans";
 	text-align: center;
+	margin-top: 0;
 	margin-bottom: 0;
+	width: 40%;
+	margin: 0 auto;
+	background-color: #BEEAFB;
 }
 
 .calculator input {
-	width: 300px;
-	height: 50px;
-	font-size: 3em;
+	width: 25vw;
+	height: 4vw;
+	font-size: 4vw;
 	text-align: center;
-	margin: 2vw auto;
+	margin: 3vw auto;
+	padding: 10px 5px;
+	color: #666;
 	display: block;
+	outline: none;
+	appearance: normal;
 }
+
+.calculator input:focus {
+	outline: none;
+	appearance: normal;
+}
+
+@import "sprites";
