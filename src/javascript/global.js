@@ -52,7 +52,9 @@ var jQuery = $.noConflict();
             }
 
             $(".street").removeClass("first second third fourth fifth sixth seventh");
+            $(".background").removeClass("first second third fourth fifth sixth seventh");
             $(".street").addClass(calculatorBand.get("grade"));
+            $(".background").addClass(calculatorBand.get("grade"));
 
         }
 
