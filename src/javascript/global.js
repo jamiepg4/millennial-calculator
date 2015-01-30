@@ -17,7 +17,7 @@ var jQuery = $.noConflict();
 
     var CalculatorCollection = Backbone.Collection.extend({
         model: CalculatorModel,
-        url: 'data.json'
+        url: 'septiles.json'
     });
 
     var CalculatorView = Backbone.View.extend({
