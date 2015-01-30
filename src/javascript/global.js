@@ -52,15 +52,13 @@ var jQuery = $.noConflict();
                 }
             });
 
-            debugger;
-
             percentileCollection.each(function(band) {
                 if (income >= band.get('salary')) {
                     percentileBand = band;
                 }
             });
 
-            console.log(percentileBand.get('percentile'));
+            $("#main-title").text("You are in the " + percentileBand.get('percentile') + " percentile of millennials");
 
             if (income > 0) {
                 if (calculatorBand.get('message')) {
