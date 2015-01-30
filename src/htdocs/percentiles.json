@@ -2,31 +2,31 @@
 	{
 		"percentile": 1,
 		"salary": 0
-	}
+	},
 	{
 		"percentile": 2,
 		"salary": 0
-	}
+	},
 	{
 		"percentile": 3,
 		"salary": 0
-	}
+	},
 	{
 		"percentile": 4,
 		"salary": 0
-	}
+	},
 	{
 		"percentile": 5,
 		"salary": 0
-	}
+	},
 	{
 		"percentile": 6,
 		"salary": 0
-	}
+	},
 	{
 		"percentile": 7,
 		"salary": 0
-	}
+	},
 	{
 		"percentile": 8,
 		"salary": 0
@@ -198,203 +198,203 @@
 	{
 		"percentile": 50,
 		"salary": 27500
-	}
+	},
 	{
 		"percentile": 51,
 		"salary": 28000
-	}
+	},
 	{
 		"percentile": 52,
 		"salary": 28500
-	}
+	},
 	{
 		"percentile": 53,
 		"salary": 29000
-	}
+	},
 	{
 		"percentile": 54,
 		"salary": 29500
-	}
+	},
 	{
 		"percentile": 55,
 		"salary": 30000
-	}
+	},
 	{
 		"percentile": 56,
 		"salary": 30500
-	}
+	},
 	{
 		"percentile": 57,
 		"salary": 31000
-	}
+	},
 	{
 		"percentile": 58,
 		"salary": 31500
-	}
+	},
 	{
 		"percentile": 59,
 		"salary": 32000
-	}
+	},
 	{
 		"percentile": 60,
 		"salary": 32500
-	}
+	},
 	{
 		"percentile": 61,
 		"salary": 33000
-	}
+	},
 	{
 		"percentile": 62,
 		"salary": 33500
-	}
+	},
 	{
 		"percentile": 63,
 		"salary": 34000
-	}
+	},
 	{
 		"percentile": 64,
 		"salary": 34500
-	}
+	},
 	{
 		"percentile": 65,
 		"salary": 35000
-	}
+	},
 	{
 		"percentile": 66,
 		"salary": 35250
-	}
+	},
 	{
 		"percentile": 67,
 		"salary": 35500
-	}
+	},
 	{
 		"percentile": 68,
 		"salary": 35750
-	}
+	},
 	{
 		"percentile": 69,
 		"salary": 36000
-	}
+	},
 	{
 		"percentile": 70,
 		"salary": 36250
-	}
+	},
 	{
 		"percentile": 71,
 		"salary": 36500
-	}
+	},
 	{
 		"percentile": 72,
 		"salary": 36750
-	}
+	},
 	{
 		"percentile": 73,
 		"salary": 37000
-	}
+	},
 	{
 		"percentile": 74,
 		"salary": 37250
-	}
+	},
 	{
 		"percentile": 75,
 		"salary": 37500
-	}
+	},
 	{
 		"percentile": 76,
 		"salary": 38000
-	}
+	},
 	{
 		"percentile": 77,
 		"salary": 40000
-	}
+	},
 	{
 		"percentile": 78,
 		"salary": 41250
-	}
+	},
 	{
 		"percentile": 79,
 		"salary": 42500
-	}
+	},
 	{
 		"percentile": 80,
 		"salary": 43750
-	}
+	},
 	{
 		"percentile": 81,
 		"salary": 45000
-	}
+	},
 	{
 		"percentile": 82,
 		"salary": 46250
-	}
+	},
 	{
 		"percentile": 83,
 		"salary": 47500
-	}
+	},
 	{
 		"percentile": 84,
 		"salary": 48750
-	}
+	},
 	{
 		"percentile": 85,
 		"salary": 50000
-	}
+	},
 	{
 		"percentile": 86,
 		"salary": 51250
-	}
+	},
 	{
 		"percentile": 87,
 		"salary": 53000
-	}
+	},
 	{
 		"percentile": 88,
 		"salary": 55000
-	}
+	},
 	{
 		"percentile": 89,
 		"salary": 57000
-	}
+	},
 	{
 		"percentile": 90,
 		"salary": 59000
-	}
+	},
 	{
 		"percentile": 91,
 		"salary": 61000
-	}
+	},
 	{
 		"percentile": 92,
 		"salary": 65000
-	}
+	},
 	{
 		"percentile": 93,
 		"salary": 69000
-	}
+	},
 	{
 		"percentile": 94,
 		"salary": 70000
-	}
+	},
 	{
 		"percentile": 95,
 		"salary": 73999
-	}
+	},
 	{
 		"percentile": 96,
 		"salary": 80000
-	}
+	},
 	{
 		"percentile": 97,
 		"salary": 85000
-	}
+	},
 	{
 		"percentile": 98,
 		"salary": 95000
-	}
+	},
 	{
 		"percentile": 99,
 		"salary": 105000
-	}
+	},
 	{
 		"percentile": 100,
 		"salary": 125000

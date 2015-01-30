@@ -15,9 +15,16 @@ var jQuery = $.noConflict();
 
     var CalculatorModel = Backbone.Model.extend();
 
+    var PercentileModel = Backbone.Model.extend();
+
     var CalculatorCollection = Backbone.Collection.extend({
         model: CalculatorModel,
         url: 'septiles.json'
+    });
+
+    var PercentileCollection = Backbone.Collection.extend({
+        model: PercentileModel,
+        url: 'percentiles.json'
     });
 
     var CalculatorView = Backbone.View.extend({
@@ -35,6 +42,8 @@ var jQuery = $.noConflict();
 
         updateIncome: function() {
             var calculatorBand;
+            var percentileBand;
+
             var income = parseInt($('#income').autoNumeric('get'), 10);
 
             calculatorCollection.each(function(band) {
@@ -42,6 +51,16 @@ var jQuery = $.noConflict();
                     calculatorBand = band;
                 }
             });
+
+            debugger;
+
+            percentileCollection.each(function(band) {
+                if (income >= band.get('salary')) {
+                    percentileBand = band;
+                }
+            });
+
+            console.log(percentileBand.get('percentile'));
 
             if (income > 0) {
                 if (calculatorBand.get('message')) {
@@ -62,6 +81,9 @@ var jQuery = $.noConflict();
 
     var calculatorCollection = new CalculatorCollection();
     calculatorCollection.fetch({reset:true});
+
+    var percentileCollection = new PercentileCollection();
+    percentileCollection.fetch({reset: true});
 
     var calculatorView = new CalculatorView({el: $('#calculator')});
 
