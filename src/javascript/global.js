@@ -73,6 +73,8 @@ var jQuery = $.noConflict();
             $(".street").addClass(calculatorBand.get("grade"));
             $(".background").addClass(calculatorBand.get("grade"));
 
+            $("#subtitle").hide();
+
         }
 
     });

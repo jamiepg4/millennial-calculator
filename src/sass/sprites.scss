@@ -156,7 +156,7 @@
 	width: 100vw;
 	height: 80vh;
 	bottom: 9vh;
-	left: 605vw;
+	left: 620vw;
 }
 
 .car {
@@ -190,6 +190,22 @@
 	background-repeat: repeat-x;
 	background-size: 10vw 100%;
 	background-image: url('images/road.png');
+}
+
+// Vehicles
+
+.yacht {
+	display: block;
+	background-image: url('images/yacht.png');
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 6vw;
+	height: 5vw;
+	left: 680vw;
+	bottom: 10vh;
+	z-index: 30;
 }
 
 // Street keyframing
