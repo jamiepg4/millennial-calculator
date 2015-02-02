@@ -58,7 +58,15 @@ var jQuery = $.noConflict();
                 }
             });
 
-            var text = "You are in the top " + (100 - percentileBand.get('percentile')) + "% of Millennials";
+            var percentile = percentileBand.get('percentile');
+            var text;
+
+            if (percentile > 98) {
+                text = "You are part of the Millennial 1%";
+            } else {
+                text = "You are in the top " + (100 - percentileBand.get('percentile')) + "% of Millennials";
+            }
+
             $("#main-title").text(text);
 
             if (income > 0) {
