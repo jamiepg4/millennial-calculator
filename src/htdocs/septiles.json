@@ -2,43 +2,43 @@
 	{
 		"id": 0,
 		"grade": "first",
-		"salaryBand": 1,
+		"salaryBand": 0,
 		"message": "Bottom septile"
 	},
 	{
 		"id": 1,
 		"grade": "second",
-		"salaryBand": 22501,
+		"salaryBand": 1000,
 		"message": "Second septile"
 	},
 	{
 		"id": 2,
 		"grade": "third",
-		"salaryBand": 37000,
+		"salaryBand": 5000,
 		"message": "Third septile"
 	},
 	{
 		"id": 3,
 		"grade": "fourth",
-		"salaryBand": 50001,
+		"salaryBand": 11000,
 		"message": "Fourth septile"
 	},
 	{
 		"id": 4,
 		"grade": "fifth",
-		"salaryBand": 68000,
+		"salaryBand": 20000,
 		"message": "Fifth septile"
 	},
 	{
 		"id": 5,
 		"grade": "sixth",
-		"salaryBand": 89000,
+		"salaryBand": 30000,
 		"message": "Sixth septile"
 	},
 	{
 		"id": 6,
 		"grade": "seventh",
-		"salaryBand": 125000,
+		"salaryBand": 45000,
 		"message": "Top septile"
 	}
 ]
