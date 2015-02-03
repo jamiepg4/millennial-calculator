@@ -63,8 +63,12 @@ var jQuery = $.noConflict();
 
             if (percentile > 98) {
                 text = "You are part of the Millennial 1%!";
-            } else {
+            } else if (percentile === 50) {
+                text = "You are in the 50th percentile of Millennials";
+            } else if (percentile >= 51) {
                 text = "You are in the top " + (100 - percentileBand.get('percentile')) + "% of Millennials";
+            } else if (percentile <= 49) {
+                text = "You are in the bottom " + (100 - percentileBand.get('percentile')) + "% of Millennials";
             }
 
             $("#main-title").text(text);
