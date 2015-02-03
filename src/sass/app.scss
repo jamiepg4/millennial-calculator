@@ -43,6 +43,7 @@ html, body {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 0;
+	font-weight: 900;
 }
 
 .calculator h3 {
@@ -68,6 +69,8 @@ html, body {
 	display: block;
 	outline: none;
 	appearance: normal;
+	border: 10px solid #395A7D;
+	border-radius: 3px;
 }
 
 .calculator input:focus {
